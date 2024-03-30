@@ -2,7 +2,7 @@
 
 using namespace std;
 
-vector<int> Finder::findSubstrings(const string& s1, const string& s2) {
+vector<int> Finder::findSubstrings(string s1, string s2) {
     vector<int> result;
 
     for(size_t i = 1; i <= s2.size(); i++) {
