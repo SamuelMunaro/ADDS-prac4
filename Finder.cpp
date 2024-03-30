@@ -19,5 +19,10 @@ std::vector<int> Finder::findSubstrings(const std::string& s1, const std::string
         }
     }
 
+    // If some substrings are still needed to be added
+    while (result.size() < s2.size()) {
+        result.push_back(-1);
+    }
+
     return result;
 }
